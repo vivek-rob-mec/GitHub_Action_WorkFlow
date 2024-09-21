@@ -9,6 +9,7 @@ on:
     pull_request: # Event: whenever a pull request is made to the repository
         branches:
             - master
+    workflow_dispatch: # Event: Whenever a workflow is manually trigerred
 
 jobs:
     on-push: # job name
